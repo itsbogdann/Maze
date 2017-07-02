@@ -1,0 +1,29 @@
+5 5
+R XX 
+X X X
+X XXX 
+X X X
+X J X
+
+
+n = input.nextInt();
+ m = input.nextInt();
+System.out.println();
+for (int i=1; i<=n; i++)
+{
+	for (int j=1; i<=m; j++)
+	{
+		if(input.hasNext()){
+			harta[i][j] = input.next();
+		//	System.out.println(harta[i][j]);
+		}
+	}
+}
+
+
+
+nullRRXX 
+nullXRX X
+nullXRXXX
+nullXRX X
+nullXRJ X
